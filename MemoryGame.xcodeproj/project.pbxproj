@@ -42,6 +42,7 @@
 		C538629D1A89542700A00FD7 /* icons20.png in Resources */ = {isa = PBXBuildFile; fileRef = C53862801A89542700A00FD7 /* icons20.png */; };
 		C538629E1A89542700A00FD7 /* LI_01.png in Resources */ = {isa = PBXBuildFile; fileRef = C53862821A89542700A00FD7 /* LI_01.png */; };
 		C538629F1A89542700A00FD7 /* LI_02.png in Resources */ = {isa = PBXBuildFile; fileRef = C53862831A89542700A00FD7 /* LI_02.png */; };
+		C5CAA6CB1A8B91B2008E9931 /* GameSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA6CA1A8B91B2008E9931 /* GameSceneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		C53862801A89542700A00FD7 /* icons20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons20.png; sourceTree = "<group>"; };
 		C53862821A89542700A00FD7 /* LI_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LI_01.png; sourceTree = "<group>"; };
 		C53862831A89542700A00FD7 /* LI_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LI_02.png; sourceTree = "<group>"; };
+		C5CAA6C91A8B91B2008E9931 /* GameSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSceneViewController.h; sourceTree = "<group>"; };
+		C5CAA6CA1A8B91B2008E9931 /* GameSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSceneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,7 @@
 		C538623C1A89536800A00FD7 /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				C5CAA6C81A8B91B2008E9931 /* Classes */,
 				C53862631A89542700A00FD7 /* Resources */,
 				C53862411A89536800A00FD7 /* AppDelegate.h */,
 				C53862421A89536800A00FD7 /* AppDelegate.m */,
@@ -241,6 +245,15 @@
 				C53862831A89542700A00FD7 /* LI_02.png */,
 			);
 			path = launchImages;
+			sourceTree = "<group>";
+		};
+		C5CAA6C81A8B91B2008E9931 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA6C91A8B91B2008E9931 /* GameSceneViewController.h */,
+				C5CAA6CA1A8B91B2008E9931 /* GameSceneViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +387,7 @@
 				C53862461A89536800A00FD7 /* ViewController.m in Sources */,
 				C53862431A89536800A00FD7 /* AppDelegate.m in Sources */,
 				C53862401A89536800A00FD7 /* main.m in Sources */,
+				C5CAA6CB1A8B91B2008E9931 /* GameSceneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +582,7 @@
 				C538625F1A89536800A00FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C53862601A89536800A00FD7 /* Build configuration list for PBXNativeTarget "MemoryGameTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +591,7 @@
 				C53862621A89536800A00FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
