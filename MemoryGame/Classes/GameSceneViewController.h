@@ -19,4 +19,8 @@
 // Peli score label connector
 @property (strong, nonatomic) IBOutlet UILabel *gameScoreLabel;
 
+// Luodaan public Action storeboard metodi joka toteutuu kun korttia (button) painetaan
+- (IBAction)tileClicked:(id)sender;
+
+
 @end

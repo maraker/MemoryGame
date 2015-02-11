@@ -39,4 +39,14 @@
 }
 */
 
+// impelement tileClicked
+// id sisältää buttonin tag arvon joka on syötetty buttoneille välillä 0-29 :)
+- (IBAction)tileClicked:(id)sender
+{
+    // Muuttuja senderID joka sisältää tag arvon buttonista (Ei tarttis, mutta silti):)
+    int senderID = [sender tag];
+    // debug ikkunaan id
+    NSLog(@"Olen Button ja mun ID on: %d\n", senderID);
+}
+
 @end
