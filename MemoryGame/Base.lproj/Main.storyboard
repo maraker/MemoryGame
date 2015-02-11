@@ -65,6 +65,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.39999999999999963" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backdrop.png" translatesAutoresizingMaskIntoConstraints="NO" id="xwG-QU-4kJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZz-6o-AiG">
                                 <rect key="frame" x="137" y="430" width="30" height="30"/>
                                 <state key="normal" title="Exit">
@@ -163,4 +166,7 @@
             <point key="canvasLocation" x="988" y="322"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backdrop.png" width="640" height="960"/>
+    </resources>
 </document>
