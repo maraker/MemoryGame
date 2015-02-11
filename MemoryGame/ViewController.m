@@ -24,4 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+// Lisätään Action Exit buttonille jotta päästään takas.
+- (IBAction)unwindTothisViewController:(UIStoryboardSegue *)unwindSeque
+{
+    
+}
+
 @end
